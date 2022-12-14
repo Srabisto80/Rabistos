@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabisto's Home Page</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <header>
+        <img id="left" src="./images/CAUTION.png">
+        <img id="right" src="./images/CAUTION.png">
+        <h1>Rabisto's</h1>
+        <h2>We'll Take It From Here</h2>
+    </header>
+
+    <div class="login">
+        <p>Been here before? Login Here:</p>
+        <button id="loginbutton" type="button" onclick="document.getElementById('main_modal').style.display='block'">Log
+            In</button>
+    </div>
+
+    <main class="main_content">
+
+        <section id="sect1">
+            <h1 id="first_heading">You Can Count On Us</h1>
+
+            <h2>If you are here now, then you have a dilemma and we are
+                here to solve your problem. Thank you for taking the time to
+                do your research, and just know, we will be with you every
+                step of the way, in whatever capacity you need.
+            </h2>
+            <ul id="product_list">We can help in the following ways:
+                <li><a href="#sect2">Clean-Up Services</a></li>
+                <li><a href="#sect3">Home Repairs and Improvements</a></li>
+                <li><a href="#sect4">Counseling Referrals</a></li>
+                <li><a href="#sect5">Starting Life Anew</a></li>
+            </ul>
+        </section>
+
+        <Section id="sect2">
+            <h2>Clean-Up Services</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse, soluta neque quae tempore temporibus
+                optio saepe perspiciatis fuga voluptatibus alias provident a sit molestiae deserunt rem aliquid,
+                consectetur quam magni, pariatur animi consequatur. Quia, eaque. Deleniti officiis et quaerat ut,
+                praesentium optio. Dicta officia, dignissimos ab qui accusantium quisquam.
+            </p>
+            <p><a href="./indices/survey.html">Click here to request services</a> </p>
+        </Section>
+
+        <Section id="sect3">
+            <h2>Home Repair and Improvement</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse, soluta neque quae tempore temporibus
+                optio saepe perspiciatis fuga voluptatibus alias provident a sit molestiae deserunt rem aliquid,
+                consectetur quam magni, pariatur animi consequatur. Quia, eaque. Deleniti officiis et quaerat ut,
+                praesentium optio. Dicta officia, dignissimos ab qui accusantium quisquam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse, soluta neque quae tempore temporibus
+                optio saepe perspiciatis fuga voluptatibus alias provident a sit molestiae deserunt rem aliquid,
+                consectetur quam magni, pariatur animi consequatur. Quia, eaque. Deleniti officiis et quaerat ut,
+                praesentium optio. Dicta officia, dignissimos ab qui accusantium quisquam.
+            </p>
+            <p><a href="./indices/survey.html">Click here to request services</a> </p>
+
+        </Section>
+
+        <Section id="sect4">
+            <h2>Counseling Referrals</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse, soluta neque quae tempore temporibus
+                optio saepe perspiciatis fuga voluptatibus alias provident a sit molestiae deserunt rem aliquid,
+                consectetur quam magni, pariatur animi consequatur. Quia, eaque. Deleniti officiis et quaerat ut,
+                praesentium optio. Dicta officia, dignissimos ab qui accusantium quisquam.
+            </p>
+            <p><a href="#">Click here to be directed to our partner
+                    counseling treatment services.
+                </a> </p>
+        </Section>
+
+        <Section id="sect5">
+            <h2>Starting Life Anew</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id esse, soluta neque quae tempore temporibus
+                optio saepe perspiciatis fuga voluptatibus alias provident a sit molestiae deserunt rem aliquid,
+                consectetur quam magni, pariatur animi consequatur. Quia, eaque. Deleniti officiis et quaerat ut,
+                praesentium optio. Dicta officia, dignissimos ab qui accusantium quisquam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet dolore repudiandae consectetur modi
+                fuga velit ad consequuntur consequatur at minus.
+            </p>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel laborum aperiam saepe minus officia!
+                Fugiat cupiditate cum debitis sed, quos sint obcaecati? Debitis molestiae et quaerat dignissimos iste
+                ipsum sunt doloremque modi ullam laudantium, est harum quibusdam hic consequatur facilis. Odio esse
+                omnis vero? Magnam sit id ipsam impedit reprehenderit?
+            </p>
+        </Section>
+
+
+
+
+
+
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="main_modal">
+        <div id="modal_back">
+            <div id="modal">
+                <div id="avatar_cont">
+                    <img id="avatar" src="./images/avatar5.png">
+                </div>
+                <br>
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter Username">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Enter Password">
+                <button type="submit" id="login">Login</button>
+
+                <input type="checkbox" id="remember" value="remember">
+                <label for="remember">Remember me</label>
+
+                <div class="bottom_modal">
+                    <button type="submit" id="cancel"
+                        onclick="document.getElementById('main_modal').style.display='none'">Cancel</button>
+                    <p id="forgot">Forgot <a href="#">password</a> ?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="bottom_of_page">
+        <ul class="bottom_bar">
+            <li><a href="./indices/tribute.html">Why We Do This</a></li>
+            <li><a href="./indices/tech.html">About Us</a></li>
+            <li><a href="./indices/survey.html">Contact Us</a></li>
+            <li><a href="./index.html">Home</a></li>
+
+        </ul>
+        <br>
+        <p>Copyright 2022</p>
+    </footer>
+
+
+</body>
+
+</html>

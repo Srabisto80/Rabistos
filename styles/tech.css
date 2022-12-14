@@ -1,0 +1,162 @@
+body {
+    background-image: url(../images/chalk.png);
+    /* background-size: cover; */
+}
+
+
+
+header {
+
+    background-color: black;
+    color: white;
+    font-family: chiller;
+    text-shadow: 2px 2px 2px red;
+    text-align: center;
+    margin: 1%;
+    border: 10px ridge red;
+}
+
+header>h1 {
+
+    margin-top: 0;
+    letter-spacing: 0.1em;
+    font-size: 96px;
+}
+
+header>h2 {
+    margin-top: -2.5%;
+    letter-spacing: 0.1em;
+    font-size: 48px;
+}
+
+#left {
+    margin: 2% 1%;
+    float: left;
+}
+
+#right {
+    margin: 2% 1%;
+    float: right;
+}
+
+#bar {
+    position: fixed;
+    top: 200;
+    left: 10;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    background-color: black;
+    width: 15%;
+    margin-left: 2%;
+}
+
+#nav_list {
+    list-style-type: none;
+    line-height: 4em;
+    width: 80%;
+
+}
+
+
+#nav_list>li>a {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-decoration: none;
+    padding: 2%;
+    font-size: 20px;
+    width: 100%;
+}
+
+#nav_list>li>a:hover {
+    color: red;
+    text-shadow: 2px 2px 2px white;
+}
+
+#nav_list>li {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-decoration: none;
+    border: 2px solid red;
+    padding: 2%;
+    font-size: 20px;
+    width: 90%;
+    margin-bottom: 4%;
+    box-shadow: 2px 2px 5px red;
+}
+
+.sections {
+    width: 70%;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px double red;
+    padding: 2%;
+}
+
+.sections>h1 {
+    font-siZe: 42px;
+    text-shadow: 2px 2px 2px red;
+}
+
+.sections>p {
+    font-size: 20px;
+}
+
+.pics {
+    display: flex;
+}
+
+
+.pics>img {
+    width: 23%;
+    margin-right: 2%;
+    border:2px solid red;
+    box-shadow: 2px 2px 5px white;
+}
+
+.captions {
+    display: flex;
+}
+
+.captions>figcaption {
+    margin-left: 3%;
+    width: 23%;
+}
+
+#bottom_of_page {
+    width: 70%;
+    background-color: rgb(0, 0, 0, 0.8);
+    color: white;
+    margin-left: 20%;
+    margin-top: 5%;
+    border: 2px double red;
+    padding: 2%;
+}
+
+.bottom_bar {
+    list-style-type: none;
+
+}
+
+.bottom_bar>li {
+    display: inline;
+
+}
+
+.bottom_bar>li>a {
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-decoration: none;
+    float: right;
+    font-size: 18px;
+    margin-right: 2%;
+}
+
+#bottom_of_page>p {
+    clear: both;
+    color: white;
+    text-shadow: 2px 2px 2px red;
+    text-align: right;
+    margin-right: 2%;
+}

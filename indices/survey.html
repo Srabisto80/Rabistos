@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabisto's</title>
+    <link rel="stylesheet" href="../styles/suvey.css">
+</head>
+<body>
+    
+<header>
+    <img id="left" src="../images/CAUTION.png">
+    <img id="right" src="../images/CAUTION.png">
+    <h1>Rabisto's</h1>
+    <h2>We'll Take It From Here</h2>
+</header>
+
+<div class="login">
+    <p>Been here before? Login Here:</p>
+    <button id="loginbutton" type="button" onclick="document.getElementById('main_modal').style.display='block'">Log In</button>
+</div>
+
+<main class="main_content">
+    <h2>Please fill out the following information:</h2>
+    <form id="info">
+        <label for="contact">Contact Name:</label>
+        <input type="text" id="contact" name="contact" placeholder="John S">
+        <br>
+        <!-- <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" placeholder="Smith">
+        <br> -->
+        <label for="phone">Contact number:</label>
+        <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="602-111-1111">
+        <br><br>
+        <label for="email">Contact Email:</label>
+        <input type="email" id="email" name="email" placeholder="john.s@gmail.com">
+        <br><br>
+        <label for="city">What city are you requesting our services in?</label>
+        <select id="city">
+            <option value="phoenix">Phoenix</option>
+            <option value="tucson">Tucson</option>
+            <option value="kingman">Kingman</option>
+            <option value="prescott">Prescott</option>
+            <option value="yuma">Yuma</option>
+            <option value="payson">Payson</option>
+            <option value="flagstaff">Flagstaff</option>
+        </select>
+        <br><br>
+        <label for="footage">What is the square footage of the area you need cleaned?</label>
+        <input type="number" id="footage" name="footage" value="footage"> ft<sup>2</sup>
+        <br><br>
+        <fieldset id="services">
+            <legend>What services are you requesting?</legend>
+            <input type="checkbox">Waste removal
+            <br><br>
+            <input type="checkbox">Removal of floors and/or infected walls
+            <br><br>
+            <input type="checkbox">Reinstallation of floors and/or walls
+            <br><br>
+            <input type="checkbox">48 hour Quality Air Care
+            <br>
+        </fieldset>
+        <br><br>
+        <label for="confidentiality">Are you requesting strict confidentiality?</label>
+        <input type="radio" name="confidentiality"> Yes
+        <input type="radio" name="confidentiality"> No
+        <p id="smaller">(Added for an extra fee)</p>
+        <br><br>
+        <label for="sub"></label>
+        <input type="submit" id="sub" value="SUBMIT">
+    </form>
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main_modal">
+    <div id="modal_back">
+        <div id="modal">
+            <div id="avatar_cont">
+                <img id="avatar" src="../images/avatar5.png">
+            </div>
+            <br>
+            <label for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter Username">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+            <button type="submit" id="login">Login</button>
+            
+            <input type="checkbox" id="remember" value="remember">
+            <label for="remember">Remember me</label>
+            
+            <div class="bottom_modal">
+                <button type="submit" id="cancel" onclick="document.getElementById('main_modal').style.display='none'">Cancel</button>
+                <p id="forgot">Forgot <a href="#">password</a> ?</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<footer id="bottom_of_page">
+    <ul class="bottom_bar">
+        <li><a href="./tribute.html">Why We Do This</a></li>
+        <li><a href="./tech.html">About Us</a></li>
+        <li><a href="./survey.html">Contact Us</a></li>
+        <li><a href="../index.html">Home</a></li>
+        
+    </ul>
+    <br>
+    <p>Copyright 2022</p>
+</footer>
+
+
+</body>
+</html>
